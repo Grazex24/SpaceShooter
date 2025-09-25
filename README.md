@@ -38,26 +38,28 @@ Le joueur contrôle un vaisseau spatial qui doit survivre face à des astéroïd
 
 ## 📂 Structure du projet (simplifiée)
 
-Source/
-├── Space_Invaders/
-│ ├── Public/
-│ │ ├── Spaceship.h
-│ │ ├── Asteroid.h
-│ │ ├── AsteroidSpawner.h
-│ │ ├── Spaceshooter_PlayerState.h
-│ │ └── Laser.h
-│ └── Private/
-│ ├── Spaceship.cpp
-│ ├── Asteroid.cpp
-│ ├── AsteroidSpawner.cpp
-│ ├── Spaceshooter_PlayerState.cpp
-│ └── Laser.cpp
-Content/
-├── Sprites/ (sprites Paper2D pour astéroïdes et vaisseau)
-├── UI/ (WBP_Score, WBP_Lives, MainMenu)
-├── FX/ (explosions, trails)
-└── Levels/ (MainMenu, MainLevel)
+```
+📂 Source  
+└── 📂 Space_Invaders  
+  ├── 📂 Public  
+  │  ├── 📄 Spaceship.h  
+  │  ├── 📄 Asteroid.h  
+  │  ├── 📄 AsteroidSpawner.h  
+  │  ├── 📄 Spaceshooter_PlayerState.h  
+  │  └── 📄 Laser.h  
+  └── 📂 Private  
+    ├── 📄 Spaceship.cpp  
+    ├── 📄 Asteroid.cpp  
+    ├── 📄 AsteroidSpawner.cpp  
+    ├── 📄 Spaceshooter_PlayerState.cpp  
+    └── 📄 Laser.cpp  
 
+📂 Content  
+├── 📂 Sprites   (sprites Paper2D pour astéroïdes et vaisseau)  
+├── 📂 UI        (WBP_Score, WBP_Lives, MainMenu)  
+├── 📂 FX        (explosions, trails)  
+└── 📂 Levels    (MainMenu, MainLevel)  
+```
 ---
 
 ## 🎮 Commandes (par défaut)
