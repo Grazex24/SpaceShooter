@@ -1,0 +1,53 @@
+# Binaries and compiled files
+Binaries/...
+DerivedDataCache/...
+Intermediate/...
+Saved/...
+.vs/...
+*.sdf
+*.opensdf
+*.pdb
+*.idb
+*.suo
+*.log
+*.tlog
+*.iobj
+*.ipdb
+*.aps
+*.pch
+*.obj
+*.lib
+*.dll
+*.exe
+*.app
+*.dylib
+
+# Mac-specific
+*.DS_Store
+*.AppleDouble
+*.LSOverride
+
+# Unreal auto-generated assets
+*.xcodeproj
+*.xcworkspace
+*.xcuserdata
+*.xcscheme
+*.xcconfig
+*.opensim
+*.opensdf
+*.generated.h
+
+# Ignore crash reports and temp files
+*.crash
+*.dmp
+*.tmp
+*.temp
+
+# Ignore project settings that can vary per user
+Config/DefaultEditorPerProjectUserSettings.ini
+Config/WindowsEditor/EditorPerProjectUserSettings.ini
+Config/MacEditor/EditorPerProjectUserSettings.ini
+
+# Ignore build folders for plugins
+Plugins/*/Binaries/...
+Plugins/*/Intermediate/...

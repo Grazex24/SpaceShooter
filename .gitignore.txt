@@ -1,0 +1,65 @@
+# Compiled source files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Project user settings
+.vscode/
+.vs/
+*.suo
+*.user
+*.userprefs
+*.opensdf
+*.sdf
+*.sln.docstates
+
+# IDE specific
+*.VC.db
+*.VC.VC.opendb
+
+# Xcode
+*.xcworkspace
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+*.xcuserdata/
+
+# Mac / Linux / Windows system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+desktop.ini
+
+# Crash and log files
+*.log
+*.dmp
+*.crash
+
+# Ignore build outputs
+*.exe
+*.dll
+*.app
+*.dylib
+*.so
+*.lib
+*.apk
+*.ipa
+
+# Ignore generated project files
+*.pri
+*.pdb
+*.idb
+*.ipch
+*.aps
+*.ncb
+*.obj
+*.pch
+*.res
+*.tlh
+*.tli
+
+# Ignore plugin build folders
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
